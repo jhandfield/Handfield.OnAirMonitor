@@ -7,8 +7,12 @@
     <PackageReference Include="Azure.Data.Tables" Version="12.8.0" />
     <PackageReference Include="Azure.Storage.Blobs" Version="12.14.1" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="4.0.1" />
-    <PackageReference Include="OnAir.API" Version="1.0.0" />
     <PackageReference Include="RestSharp" Version="108.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="OnAir.API">
+      <HintPath>Static Dependencies\OnAir.API.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
